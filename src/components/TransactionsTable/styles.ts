@@ -33,6 +33,11 @@ export const Container = styled.div`
       &.withdraw {
         color: var(--red);
       }
+
+      &.withdraw:before {
+        content: '-';
+        margin-right: 0.25rem;
+      }
     }
   }
 `;
